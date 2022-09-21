@@ -1,1 +1,39 @@
+$primary: #7f51d6;
+$light: #E5E7E9;
+
+$navbar-active-color: #db545a;
+$navbar-light-hover-color:     #db545a;
+
 @import "node_modules/bootstrap/scss/bootstrap";
+
+// NavBar
+.navbar-toggler {
+    border: none;
+    color: transparent;
+  } 
+
+.navbar-toggler-icon {
+    background-image: url(./images/toggler.png);
+    z-index: -10;
+}
+
+.navbar-toggler-icon:active {
+    background-image: url(./images/toggle-active.png);
+    z-index: 10;
+}
+
+//Hero Section
+// .hero {
+//     background-image: url(./images/bg-hero.jpg);
+//     float: ;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position: center center;
+// }
+
+.borderH {
+    margin-top: 20px;
+    border-style: solid;
+    border-bottom: #7f51d6;
+    border-width: 13px;
+}
