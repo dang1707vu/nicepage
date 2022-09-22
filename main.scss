@@ -1,5 +1,5 @@
 $primary: #7f51d6;
-$light: #E5E7E9;
+$light: #ededed;
 
 $navbar-active-color: #db545a;
 $navbar-light-hover-color:     #db545a;
@@ -23,13 +23,13 @@ $navbar-light-hover-color:     #db545a;
 }
 
 //Hero Section
-// .hero {
-//     background-image: url(./images/bg-hero.jpg);
-//     float: ;
-//     background-size: contain;
-//     background-repeat: no-repeat;
-//     background-position: center center;
-// }
+
+.heroBG {
+    height: 75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
 
 .borderH {
     margin-top: 20px;
@@ -37,3 +37,8 @@ $navbar-light-hover-color:     #db545a;
     border-bottom: #7f51d6;
     border-width: 13px;
 }
+
+.nopadding {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+ }
