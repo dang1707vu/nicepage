@@ -1,10 +1,16 @@
 $primary: #7f51d6;
 $light: #ededed;
+$secondary: #e1e1e1;
+$dark: black;
 
 $navbar-active-color: #db545a;
-$navbar-light-hover-color:     #db545a;
+$navbar-light-hover-color: #db545a;
 
 @import "node_modules/bootstrap/scss/bootstrap";
+section {
+    margin: 0;
+    padding: 0;
+}
 
 // NavBar
 .navbar-toggler {
@@ -25,10 +31,10 @@ $navbar-light-hover-color:     #db545a;
 //Hero Section
 
 .heroBG {
-    height: 75%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center right;
+    
 }
 
 .borderH {
@@ -41,4 +47,18 @@ $navbar-light-hover-color:     #db545a;
 .nopadding {
     padding-right: 0 !important;
     margin-right: 0 !important;
+ }
+
+
+//Gallerie
+
+ .gImg{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+ }
+
+
+ .bg-img {
+    background-image: url(/images/g1.jpg);
  }
